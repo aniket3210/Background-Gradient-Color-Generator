@@ -80,5 +80,23 @@ button:hover{
     display: none;
 }
 
+/* Download Button Styling */
+#downloadBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 0.3px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#downloadBtn:hover {
+    background-color:transparent;
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
 
 

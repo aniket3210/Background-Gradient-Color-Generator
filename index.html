@@ -5,25 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Gradient</title>
     <link rel="stylesheet" href="./style.css" />
+    <!-- Add html2canvas library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
     <div class="main">
         <div class="main1">
             <div class="button1">
-            <button type="button" id="btn1">#051937</button>
-        </div>
-        <div class="button2">
-            <button type="button" id="btn2">#008793</button>
-        </div>
+                <button type="button" id="btn1">#051937</button>
+            </div>
+            <div class="button2">
+                <button type="button" id="btn2">#008793</button>
+            </div>
         </div>
         <div class="main2">
             Copy Code
         </div>
         <div class="main3">
-            background-image:linear-gradient(to right,
-            rgb(155, 11, 225), rgb(#444);
+            background-image:linear-gradient(to right, rgb(155, 11, 225), rgb(#444));
         </div>
-    
+        <!-- Add Download Button -->
+        <button type="button" id="downloadBtn">Download Gradient</button>
     </div>
 
     <script src="./script.js"></script>
